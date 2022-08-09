@@ -1,0 +1,23 @@
+@mixin headings {
+    font-size: 1rem;
+}
+
+@mixin styleMS {
+    display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin styleA {
+    display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	margin: 1rem;
+}
+
+@mixin styleAsides {
+    border: 0.2rem solid rgba(0, 0, 255, 0.678);    
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
